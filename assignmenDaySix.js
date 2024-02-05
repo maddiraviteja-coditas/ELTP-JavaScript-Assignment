@@ -38,30 +38,29 @@ Day - 9 Assignment
 */
 
 // 1)
-console.log('70' == 70);
+console.log('70' == 70); //true
 
 // 2)
-console.log(parseInt('8.8') == 9);
+console.log(parseInt('8.8') == 9); //false
 
 // 3
 
 // 3.a)
-console.log(true && '');
-console.log(true && NaN);
-console.log(true && false);
-console.log([] = []);
-console.log({} = {});
+console.log(true && 0); // falsy value 0
+console.log(true && NaN); // NaN falsy value
+console.log(true && false); // false
+console.log([] == []); // false
+console.log({} == {}); // false
 
 // 3.b)
-console.log(true && "true");
-console.log(true && !NaN);
-console.log(10 === 10);
-let primeNumbers = [2,3,5,7];
-let wholeNumbers = [0,1,2,3,4,5];
-console.log(primeNumbers[0] === wholeNumbers[2]);
-console.log("hello" == "hello");
+console.log(true && "true"); // true
+console.log(true && !NaN); // true
+console.log(10 === 10); // true
+let primeNumbers = [2,3,5,7]; // true
+let wholeNumbers = [0,1,2,3,4,5]; // true
+console.log(primeNumbers[0] === wholeNumbers[2]); // true
+console.log("hello" == "hello"); // true
 
-//     n) Find the length of python and jargon and make a falsy comparison statement.
 
 // 4) 
 console.log(5>4); // true
@@ -77,19 +76,6 @@ console.log(4 !== 4); // false
 console.log(4 != '4'); // false
 console.log(4 !== '4'); // true
 console.log("python".length !== "jargon".length); // false
-
-// 5) Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
-//    a)  4 > 3 && 10 < 12
-//     b) 4 > 3 && 10 > 12
-//     c) 4 > 3 || 10 < 12
-//     d) 4 > 3 || 10 > 12
-//     e) !(4 > 3)
-//     g) !(4 < 3)
-//     h) !(false)
-//     i) !(4 > 3 && 10 < 12)
-//     j) !(4 > 3 && 10 > 12)
-//     k) !(4 === '4')
-//     l) There is no 'on' in both dragon and python
 
 // 5)
 
